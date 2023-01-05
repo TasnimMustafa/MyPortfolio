@@ -52,8 +52,8 @@ const Contact = () => {
                 <div style={{fontSize:"25px"}}>
                 <ImWhatsapp/>
                 </div>
-                <p>20 - 010 221 042 96</p>
-                <a href="https://api.whatsapp.com/send?phone=01022104296" target="_blank">Send a Message</a>
+                <p>+2 010 221 042 96</p>
+                <a href="https://api.whatsapp.com/send?phone=+201022104296" target="_blank">Send a Message</a>
               </div>
             </div>
 
