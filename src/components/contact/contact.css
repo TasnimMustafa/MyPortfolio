@@ -1,0 +1,33 @@
+.contact_social {
+    text-align: center;
+    /* border: 1px solid var(--color-primary); */
+    border-radius: 4px;
+    background-color: var(--color-bg-varient);
+    margin-bottom: 15px;
+    padding: 20px 10px;
+}
+
+.contact_social p {
+    font-size: 14px;
+}
+
+.contact_social a {
+    text-decoration: none;
+}
+
+::placeholder {
+    color: var(--color-light);
+}
+
+.contact_form input , .contact_form textarea{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-white);
+}
+
+.contact_form textarea {
+    min-height: 150px;
+    max-height: 200px;
+    overflow: auto;
+}

@@ -1,0 +1,96 @@
+.project {
+    background-color: var(--color-bg-varient);
+    border-radius: 6px;
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.project_img {
+    position: relative;
+    height: 65%;
+    width: 100%;
+}
+
+/* .project_img::before {
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color: var(--color-primary-varient);
+    z-index: 3;
+    transition: var(--transition);
+}
+
+.project_img:hover::before {
+    height: 100%;
+    width: 100%;
+} */
+
+.project_img img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.project:hover .project_img img {
+    filter: grayscale(0);
+}
+
+.portfolio_labels {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap:50px;
+}
+
+.portfolio_labels span {
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding:5px 20px;
+    border-radius: 4px;
+
+}
+
+.portfolio_labels span.active{
+    background-color: var(--color-white);
+    color: var(--color-bg-varient);
+}
+
+.project_link a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.project_link a:hover {
+    text-decoration: none;
+}
+
+.project_title  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ********************MEDIA QURIES (SMALL DEVICES)********************** */
+
+@media screen and (max-width: 600px) {
+    .project{
+        margin-right: 0px;
+        margin-left: 0;
+    }
+
+    .portfolio_labels {
+        flex-wrap: wrap;
+        gap:5px;
+        margin-bottom: 8px;
+    }
+}
