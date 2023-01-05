@@ -53,7 +53,7 @@ const Contact = () => {
                 <ImWhatsapp/>
                 </div>
                 <p>+2 010 221 042 96</p>
-                <a href="https://api.whatsapp.com/send?phone=+201022104296" target="_blank">Send a Message</a>
+                <a href="https://api.whatsapp.com/send?phone=+01022104296" target="_blank">Send a Message</a>
               </div>
             </div>
 
