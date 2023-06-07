@@ -1,4 +1,6 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
